@@ -15,18 +15,24 @@ buildscript {
    }
    configurations.maybeCreate("pitest")
    dependencies {
-//       classpath 'info.solidsoft.gradle.pitest:gradle-pitest-plugin:1.1.10'
+       classpath 'info.solidsoft.gradle.pitest:gradle-pitest-plugin:1.1.10'
    }
 }
 
 plugins {
-//    id "info.solidsoft.pitest" version "1.1.11"
+    id "info.solidsoft.pitest" version "1.1.11"
 }
 
-// test {
-//     testLogging.showStandardStreams = true
-//     ignoreFailures = true
-// }
+ test {
+     testLogging.showStandardStreams = true
+     ignoreFailures = true
+ }
+
+
+ test {
+     testLogging.showStandardStreams = true
+     ignoreFailures = true
+ }
 
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
@@ -47,29 +53,29 @@ repositories {
 }
 
 dependencies {
-//    // This dependency is exported to consumers, that is to say found on their compile classpath.
-//    api 'org.apache.commons:commons-math3:3.6.1'
-//
-//    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
-//    implementation 'com.google.guava:guava:21.0'
-//
-//    // Use JUnit test framework
+    // This dependency is exported to consumers, that is to say found on their compile classpath.
+    api 'org.apache.commons:commons-math3:3.6.1'
+
+    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
+    implementation 'com.google.guava:guava:21.0'
+
+    // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
-//    testCompile 'junit:junit:4.12'
-//
-//    // also use Mockito
-//    // testCompile "org.mockito:mockito-core:2.+"
-//
-//   // pitest too!
-//    // pitest 'com.github.alexvictoor:pitest-cucumber-plugin:0.4'
-//
-//    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    testCompile 'junit:junit:4.12'
+
+    // also use Mockito
+     testCompile "org.mockito:mockito-core:2.+"
+
+   // pitest too!
+//     pitest 'com.github.alexvictoor:pitest-cucumber-plugin:0.4'
+
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
-//
-//	// https://mvnrepository.com/artifact/io.appium/java-client
+
+	// https://mvnrepository.com/artifact/io.appium/java-client
 	compile group: 'io.appium', name: 'java-client', version: '7.5.1'
-//
-//	// https://mvnrepository.com/artifact/org.apache.jmeter/ApacheJMeter_core
+
+	// https://mvnrepository.com/artifact/org.apache.jmeter/ApacheJMeter_core
 	implementation group: 'org.apache.jmeter', name: 'ApacheJMeter_core', version: '5.4.1'
 }
 

@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="performance_testing_app.PerformanceExample" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-11T16:32:14" hostname="LAPTOP-MEMTFEF7" time="28.724">
+<testsuite name="performance_testing_app.PerformanceExample" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-01-08T04:53:41" hostname="Shady" time="118.902">
   <properties/>
-  <testcase name="performanceTestGoogleSpeedTest" classname="performance_testing_app.PerformanceExample" time="16.084"/>
-  <testcase name="performanceTestCalculator" classname="performance_testing_app.PerformanceExample" time="12.64"/>
-  <system-out><![CDATA[C:/Users/tyler/Documents/Programming/Performance_Testing_JMeter_App/drivers/geckodriver.exe
-C:/Users/tyler/Documents/Programming/Performance_Testing_JMeter_App/drivers/chromedriver.exe
-CDwindow-968AE8B178E66EAAB6F4F074716B3909
+  <testcase name="performanceTestGoogleSpeedTest" classname="performance_testing_app.PerformanceExample" time="90.124"/>
+  <testcase name="performanceTestCalculator" classname="performance_testing_app.PerformanceExample" time="28.777"/>
+  <system-out><![CDATA[C:/Users/lenovo/Downloads/Performance_Testing_JMeter_Assign/drivers/geckodriver.exe
+C:/Users/lenovo/Downloads/Performance_Testing_JMeter_Assign/drivers/chromedriver.exe
+CDwindow-A750F109A7B41F455F607B8E89A6CBFF
 Page was loaded 0 times with an average load time of 0 ms.
 Speed test succeeded 0 times with an average runtime of 0 ms.
 Speed test failed 0 times with an average recognition time of 0 ms.
 
-CDwindow-CCD6D7E3CE9CAC6AA3CD4DCBB9500F48
+CDwindow-8A04CEB6EACAAEBE0E6E44E6B6771F34
 Page was loaded 0 times with an average load time of 0 ms.
 Calculator press succeeded 0 times with an average runtime of 0 ms.
 Calculator press failed 0 times with an average recognition time of 0 ms.
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 38909
+  <system-err><![CDATA[Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 29135
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 11, 2022 11:32:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1673153665.651][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 08, 2023 6:54:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 6973
+Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 29688
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 11, 2022 11:32:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 08, 2023 6:55:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

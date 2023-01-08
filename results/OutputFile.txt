@@ -1,0 +1,7 @@
+Page was loaded 0 times with an average load time of 0 ms.
+Speed test succeeded 0 times with an average runtime of 0 ms.
+Speed test failed 0 times with an average recognition time of 0 ms.
+
+Page was loaded 0 times with an average load time of 0 ms.
+Calculator press succeeded 0 times with an average runtime of 0 ms.
+Calculator press failed 0 times with an average recognition time of 0 ms.
